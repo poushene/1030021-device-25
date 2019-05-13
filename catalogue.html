@@ -7,43 +7,45 @@
 </head>
 <body>
 <header class="main-header">
+     <h1 class="visually-hidden">Магазин DEVICE</h1>
      <nav class="main-navigation">
-       <a class="main-header-logo">
-         <img src="img/index-logo.svg" alt="Логотип магазина Девайс">
+       <a class="device-logo">
+         <img src="img/index-logo.svg" height="10" width="10" alt="Логотип магазина Девайс">
         </a>
-        <ul>
+        <ul class="search-form">
           <li><img src="img/index-search.svg" alt="Иконка поиска"></li>
           <li><form>
-            <input type="">
+          <!--Позже-->
+            <input type="text">
             </form>
           </li>
         </ul>
-        <ul>
-        <li><a href="catalogue.html">Каталог товаров</a></li>
-        <li><img src="img/index-plus-button" alt="Иконка доступа к выпадающему меню">
-          <ul class="submenu">
+        <ul class="catalogue-menu">
+          <li><a class="catalogue-upper-menu" href="catalogue.html">Каталог товаров</a></li>
+          <li><img src="img/index-plus-button" alt="Иконка доступа к выпадающему меню">
+          <ul class="catalogue-submenu">
             <li>
-              <ul>
+              <ul class="submenu-list">
                 <li><a href="catalogue-vr.html">Виртуальная реальность</a></li>
                 <li><a href="catalogue-selfie.html">Моноподы для селфи</a></li>
                 <li><a href="catalogue-action.html">Экшн-камеры</a></li>
               </ul>
             </li>
             <li>
-              <ul>
+              <ul class="submenu-list">
                 <li><a href="catalogue-fitness.html">Фитнесс-браслеты</a></li>
                 <li><a href="catalogue-smart-watches.html">Умные часы</a></li>
               </ul>
             </li>
-            <li><a href="catalogue-quaddro.html">Квадрокоптеры</a></li>       
+            <li class="submenu-list"><a href="catalogue-quaddro.html">Квадрокоптеры</a></li>       
           </ul>
          </li>
         </ul>
-        <ul class="header-login">
+        <ul class="login">
           <li><img src="img/index-login-icon" alt="Иконка авторизации"></li>
           <li><a href="authsite">Войти</a></li>
         </ul>
-        <ul class="header-compare-cart">
+        <ul class="compare-cart">
           <li>
             <ul>
               <li><img src="img/index-compare-icon" alt="Иконка сравнения"></li>
