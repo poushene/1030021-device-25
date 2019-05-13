@@ -6,15 +6,116 @@
   <title>HTML Academy: Девайс</title>
 </head>
 <body>
-<main>
-<h2 class="Main-catalogue-header">Моноподы для сэлфи</h2>
-<nav>
-  <ol>
-    <li><a href="index.html">Главная</a></li>
-    <li><a href="catalogue.html">Каталог товаров</a></li>
-    <li><em>Моноподы для сэлфи</em></li>
-  </ol>
-</nav>
+<header class="main-header">
+     <nav class="main-navigation">
+       <a class="main-header-logo">
+         <img src="img/index-logo.svg" alt="Логотип магазина Девайс">
+        </a>
+        <ul>
+          <li><img src="img/index-search.svg" alt="Иконка поиска"></li>
+          <li><form>
+            <input type="">
+            </form>
+          </li>
+        </ul>
+        <ul>
+        <li><a href="catalogue.html">Каталог товаров</a></li>
+        <li><img src="img/index-plus-button" alt="Иконка доступа к выпадающему меню">
+          <ul class="submenu">
+            <li>
+              <ul>
+                <li><a href="catalogue-vr.html">Виртуальная реальность</a></li>
+                <li><a href="catalogue-selfie.html">Моноподы для селфи</a></li>
+                <li><a href="catalogue-action.html">Экшн-камеры</a></li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li><a href="catalogue-fitness.html">Фитнесс-браслеты</a></li>
+                <li><a href="catalogue-smart-watches.html">Умные часы</a></li>
+              </ul>
+            </li>
+            <li><a href="catalogue-quaddro.html">Квадрокоптеры</a></li>       
+          </ul>
+         </li>
+        </ul>
+        <ul class="header-login">
+          <li><img src="img/index-login-icon" alt="Иконка авторизации"></li>
+          <li><a href="authsite">Войти</a></li>
+        </ul>
+        <ul class="header-compare-cart">
+          <li>
+            <ul>
+              <li><img src="img/index-compare-icon" alt="Иконка сравнения"></li>
+              <li><a href="catalogue-compare">Сравнить</a></li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li><img src="img/index-cart-icon" alt="Иконка корзины"></li>
+              <li><a href="catalogue-cart">Корзина</a></li>
+            </ul>
+          </li>
+         </ul>
+         <ul>
+            <li><a href="index-delivdery.html">Доставка</a></li>
+            <li><a href="index-warranty.html">Гарантия</a></li>
+            <li><a href="index-contacts">Контакты</a></li>
+         </ul>
+      </nav>
+      <img class="white-plate" src="img/index-plate" alt="Белая планка">
+    </header>
+<main class="container">
+<h1 class="page-title">Моноподы для сэлфи</h2>
+<ul class="breadcrumbs">
+  <li><a href="index.html">Главная</a></li>
+  <li><a href="catalogue.html">Каталог товаров</a></li>
+  <li class="breadcrumbs-current">Моноподы для сэлфи</li>
+</ul>
+<section class="filers">
+  <h2>Фильтр:</h2>
+</section>
+<section class="catalogue">
+  <h2 class="visually-hidden">Каталог моноподов для сэлфи</h2>
+  <ul class="catalogue-list">
+    <li class="catalogue-item1">
+      <h3><a href="catalogue-item-title">Любительская сэлфи-палка</a></h3>
+      <p><img src="img/item1" alt="Любительская сэлфи-палка"></p>
+      <p>500 руб.</p>
+      <ul class="hover-show">
+        <li><a href="buy.html">Купить</a></li>
+        <li><a href="add.html">Добавить к сравнению</a></li>
+      </ul>
+    </li>
+    <li class="catalogue-item2">
+      <h3><a href="catalogue-item-title">Профессиональная сэлфи-палка</a></h3>
+      <p><img src="img/item2" alt="Профессиональная сэлфи-палка"></p>
+      <p>1500 руб.</p>
+      <ul class="hover-show">
+        <li><a href="buy.html">Купить</a></li>
+        <li><a href="add.html">Добавить к сравнению</a></li>
+      </ul>
+    </li>
+    <li class="catalogue-item3">
+      <h3><a href="catalogue-item-title">Непотопляемая сэлфи-палка</a></h3>
+      <p><img src="img/item3" alt="Любительская сэлфи-палка"></p>
+      <p>2500 руб.</p>
+      <ul class="hover-show">
+        <li><a href="buy.html">Купить</a></li>
+        <li><a href="add.html">Добавить к сравнению</a></li>
+      </ul>
+    </li>
+    <li class="catalogue-item4">
+      <h3><a href="catalogue-item-title">Сэлфи-палка "Следуй за мной"</a></h3>
+      <p><img src="img/item4" alt="Сэлфи-палка "Следуй за мной""></p>
+      <p>4900 руб.</p>
+      <ul class="hover-show">
+        <li><a href="buy.html">Купить</a></li>
+        <li><a href="add.html">Добавить к сравнению</a></li>
+      </ul>
+    </li>
+  </ul>
+</section>
 </main>
 </body>
 </html>
