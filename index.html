@@ -11,7 +11,10 @@
         <a class="device-logo">
           <img src="img/logo.svg" width="82" height="18" alt="Логотип магазина Девайс">
         </a>
-        <!--    <form class="search-form"><input type="text"></form> to be continued...-->
+        <form class="search-form" action="http://echo.htmlacademy.ru" method="post">
+          <input class="search-input" type="search" placeholder="Поиск по сайту" aria-label="Поиск по содержимому сайта">
+          <button class="search-button" type="button">Найти</button>
+        </form>
         <p class="catalogue-category"><a href="catalogue.html">Каталог товаров</a></p>
         <ul class="catalogue-submenu">
           <li>
@@ -95,7 +98,9 @@
         <form class="write-us-form" action="http://echo.htmlacademy.ru" method="post">
           <label class="modal-label">Ваше имя:<input class="input-name" type="text" name="user-name" placeholder="Имя Фамилия"></label>
           <label class="modal-label">Ваш e-mail:<input class="input-e-mail" type="email" name="user-e-mail" placeholder="email@example.com"></label>
-          <label class="modal-label">Текст письма:<input class="input-text" type="text" name="user-letter" placeholder="В свободной форме"></label>
+          <p>
+            <label class="modal-label">Текст письма:<input class="input-text" type="text" name="user-letter" placeholder="В свободной форме"></label>
+          </p>
           <button class="modal-send" type="submit">Отправить</button>
         </form>
       <button class="modal-close" type="button">Закрыть</button>
