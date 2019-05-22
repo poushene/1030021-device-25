@@ -90,11 +90,15 @@
       <p>Тел.: +7(495)495-95-95</p>
       <img src="img/htmlacademy-logo.svg" alt="Логотип HTMLAcademy" width="14" height="18">
     </footer>
-    <section class="modal modal-login">
-      <h2>Личный кабинет</h2>
-      <p>Введите свой логин и пароль</p>
-      <!--Здесь будет форма-->
-      <span class="modal-close">x</span>
+    <section class="modal modal-write-us">
+      <h2 class="visually-hidden">Написать нам</h2>
+        <form class="write-us-form" action="http://echo.htmlacademy.ru" method="post">
+          <label class="modal-label">Ваше имя:<input class="input-name" type="text" name="user-name" placeholder="Имя Фамилия"></label>
+          <label class="modal-label">Ваш e-mail:<input class="input-e-mail" type="email" name="user-e-mail" placeholder="email@example.com"></label>
+          <label class="modal-label">Текст письма:<input class="input-text" type="text" name="user-letter" placeholder="В свободной форме"></label>
+          <button class="modal-send" type="submit">Отправить</button>
+        </form>
+      <button class="modal-close" type="button">Закрыть</button>
     </section>
     <section class="modal modal-map">
       <h2 class="visually-hidden">Как до нас добраться?</h2>
