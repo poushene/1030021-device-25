@@ -55,9 +55,14 @@
         <li class="breadcrumbs-current">Моноподы для сэлфи</li>
       </ul>
       <form class="filter-form" action="http://echo.htmlacademy.ru" method="get">
-        <label>Стоимость<input></label>
-        <fieldset class="filter-color">
-          <legend>Цвет</legend>
+        <fieldset class="filter-group">
+          <legend class="group-legend">Стоимость</legend>
+            <label class="visually-hidden" for="price-range">Стоимость</label>
+            <input id="price-range">
+            <!--Позже-->
+        </fieldset>
+        <fieldset class="filter-group">
+          <legend class="group-legend">Цвет</legend>
           <ul>
             <li class="filter-option">
               <label>Черный<input class="filter-color-input" type="checkbox" name="black" checked></label>
@@ -76,7 +81,8 @@
             </li>
           </ul>
         </fieldset>
-        <fieldset class="filter-bluetooth">
+        <fieldset class="filter-group">
+          <legend class="filter-legend">Bluetooth</legend>
           <ul>
             <li class="filter-option">
               <label>Есть<input class="filter-bluetooth-input" type="radio" name="bluetooth" value="true" checked></label>
