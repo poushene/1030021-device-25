@@ -1,8 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Sergey Pushenko](https://up.htmlacademy.ru/htmlcss/25/user/1030021).
-* Наставник: [Денис Байдаров](https://up.htmlacademy.ru/htmlcss/25/user/7956).
-
+* Наставник: 
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
